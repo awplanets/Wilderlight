@@ -12,11 +12,19 @@ Wilderlight is a single-player action roguelite about leading three adventurers 
 
 ### Into the Sunward Woods
 
-The early waves give you room to find your footing. The clearing feels a good deal smaller when the goblin officer draws his blade. Once enraged, he charges three times in a row. As the first charge goes wide, watch the ground to see where the next one will take him.
+Gold and rust-red leaves gather along the path through the Sunward Woods. Birch shadows cut across the clearing, and the light breaks over leaves and stones in thick strokes of paint. As the goblins close in, you can still pick out the pale path between them. Keep an eye on the gaps beside it. When the goblin officer flies into a rage and charges three times in succession, you’ll want to know where to dodge.
 
-Bring him down and the gold drains from the canopy. Fireflies rise in the Moonlit Woods, where skeleton mages can reach you from across the clearing. Survive five waves and the skeleton lord takes the field. At half health, he can pick a fresh landing spot for each leap, then chase the party with his blade still spinning.
+![Goblins converge on the party from both sides of a leaf-strewn clearing in the Sunward Woods](docs/forest-battle.jpg)
 
-![The party fighting in the Sunward Woods in the public build](docs/forest-battle-en.jpg)
+### Watch Night Fall on the Same Clearing
+
+After the first boss falls, pick a stone and watch it through the change. It stays right where it was as the amber leaves around it fade to slate blue. Moonlight slips through gaps in the canopy, laying pale silver bands across the forest floor. In the darker patches, yellow-green fireflies drift just above the leaves, each brightening and fading in its own time.
+
+[![Day turning to night in the same clearing, from golden sunlight to blue moonlight](docs/moonrise-preview.webp)](docs/moonrise.mp4)
+
+[Watch the original day-to-night clip (MP4, 1080p, about 5 seconds)](docs/moonrise.mp4)
+
+Once night settles, skeleton mages start casting from across the clearing. Survive five waves and the skeleton lord takes the field. At half health, he picks a fresh landing spot for each leap, then chases the party with his blade still spinning.
 
 ### Three Heroes, One Dodge
 
@@ -26,7 +34,7 @@ Bring him down and the gold drains from the canopy. Fireflies rise in the Moonli
 
 The first three blessings give you a feel for how differently a run can play. With **Whirlwind**, skim the edge of a crowd to keep enemies within Lorne’s reach for one more turn of the blade. With **Ricochet**, a pair of enemies standing close together makes a fine target for Vela. Take **Blazing Circle** and it pays to double back, drawing pursuers through Eve’s fire a second time.
 
-![The first three woodland blessings, shown in the English interface](docs/woodland-blessings-en.jpg)
+![The first three woodland blessings: Whirlwind, Blazing Circle, and Ricochet](docs/woodland-blessings.jpg)
 
 Later choices include piercing blade waves, volleys of bolts, and flames that leap between enemies. Each skill and blessing can reach level 12. Finish both chapters to put a time on your local leaderboard. On the next run, try a different build and see how much sooner you can make it home.
 
@@ -56,6 +64,6 @@ On Windows, run `py -3 start.py`. On macOS, you can also double-click `启动游
 
 ### Credits and Licenses
 
-**DynamicWang** designed and produced Wilderlight. The game code is available under the [MIT License](LICENSE). AWPlanet / DynamicWang reserve the rights to the promotional banner and its brand marks.
+**DynamicWang** designed and produced Wilderlight. The game code is available under the [MIT License](LICENSE). The banner, screenshots and gameplay clip are supplied by the author. AWPlanet / DynamicWang reserve the rights to their original artwork and brand marks shown here.
 
 The public build includes CC0 character, skeleton and weapon models by Kay Lousberg (KayKit), and CC0 mossy rock models by Kless Gyzen via Poly Haven. The daytime enemies use knight and ranger models to demonstrate the goblin encounters. Rendering, audio, font and asset credits are listed in the [third-party notices](THIRD_PARTY.md).

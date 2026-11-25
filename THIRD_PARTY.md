@@ -17,6 +17,6 @@ The public demo role emblems, text icon renderer and generated day/night demo tr
 
 - Barlow Condensed Bold, The Barlow Project Authors. Latin web subsets under the SIL Open Font License 1.1. See `licenses/barlowcondensed-OFL.txt`.
 
-## Project banner
+## Project promotional media
 
-The promotional banner in `docs/banner.jpg`, including its artwork and brand marks, is displayed by permission of AWPlanet / DynamicWang. All rights reserved. The banner is outside the MIT code license.
+The banner, author-supplied gameplay screenshots, day-to-night video and its animated preview in `docs/` are presented by permission of AWPlanet / DynamicWang. The game code’s MIT license does not cover these promotional media. Original artwork and brand marks remain reserved. Third-party materials depicted retain their own licenses.
