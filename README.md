@@ -2,7 +2,7 @@
 
 # 荒野微光 · Wilderlight
 
-带领三位英雄穿过逐日之森与月下丛林，在一波波围攻中为小队选取祝福。
+一个人带一支三人小队，从白天的逐日之森打到夜里的月下丛林。一路能学到哪些招式，要看你怎么选祝福。
 
 Lead three heroes through the Sunward and Moonlit Woods, choosing a blessing for your party between battles.
 
@@ -10,25 +10,25 @@ Lead three heroes through the Sunward and Moonlit Woods, choosing a blessing for
 
 ## 关于这款游戏 / About This Game
 
-第一支弩箭飞过林间空地时，洛恩已经拔出了剑。你可以带队迎上去，让他一剑扫过前排；也可以沿着林缘绕半圈，等追兵挤到一起，再让伊芙的火球落进人堆。
+隔着半片空地，薇拉的弩就够得着敌人。想让洛恩也砍上一剑，得带队再往前走几步。要是追过来的哥布林太多，沿着树林兜个圈，等它们挤到一块儿，伊芙一发火球就能打中好几只。
 
 By the time Vela’s first bolt crosses the clearing, Lorne has his sword out. Close the distance and he can catch the front rank in a single sweep. Or lead the party around the tree line, let the pursuers bunch up, and give Eve a perfect shot with a fireball.
 
-《荒野微光》是一款单人小队动作 Roguelite。你指挥三位并肩作战的英雄，穿过从白昼走向黑夜的两章森林。三人各自寻找目标、自动出手；整支小队往哪走、何时闪避、下一张祝福交给谁，都由你决定。
+《荒野微光》是一款单人动作肉鸽。战士、游侠和法师都会自己攻击，你用方向键带着三个人一起走，按空格一起闪避。打到升级时，从三张祝福里挑一张给小队。
 
 Wilderlight is a single-player action roguelite about leading three adventurers through two chapters of woodland, from late sunlight into moonrise. Each hero picks a target and attacks on their own. You steer the party, time each dodge, and decide who gets the next blessing.
 
-### 跟着最后一束日光进林 / Into the Sunward Woods
+### 逐日之森 / Into the Sunward Woods
 
-逐日之森的路边堆着一层金黄和赭红的落叶。白桦的树影斜切过空地，叶片和石头上的光斑像一笔笔厚涂的颜料。哥布林从林缘围上来时，还能从它们之间看见那条浅色的小径。哥布林军官在狂暴后会连续冲锋三次，记住小径两侧的空当，下一次闪避就有了去处。
+白天进林子，最好认的是落叶中间那条浅色小路。白桦的影子横过路面，路边的叶子有黄有红，能看见一块块叠起来的笔触。五波哥布林打完，军官就上场了。他残血时会连冲三次，躲过第一下先别急着回头。
 
 Gold and rust-red leaves gather along the path through the Sunward Woods. Birch shadows cut across the clearing, and the light breaks over leaves and stones in thick strokes of paint. As the goblins close in, you can still pick out the pale path between them. Keep an eye on the gaps beside it. When the goblin officer flies into a rage and charges three times in succession, you’ll want to know where to dodge.
 
 ![逐日之森里，哥布林从落叶覆盖的空地两侧围住小队 / Goblins converge on the party from both sides of a leaf-strewn clearing in the Sunward Woods](docs/forest-battle.jpg)
 
-### 在同一片空地，看着天色暗下来 / Watch Night Fall on the Same Clearing
+### 从白天到夜里 / Watch Night Fall on the Same Clearing
 
-打赢白天的首领后，留意脚下那块石头。它还在原处，周围的橙黄落叶却一点点褪成灰蓝。月光从树冠的缝隙斜斜落下，把林地照出几道淡银色的亮带。再看暗处，贴近地面的黄绿色萤火正各自起伏，亮一下，又慢慢暗下去。
+打完哥布林军官，天就在这片空地上慢慢暗下来。几秒钟里，脚边的落叶从金黄变成灰蓝，几束月光斜着穿过树缝。仔细看树影底下，有几只萤火虫贴着地面飞，忽明忽暗。
 
 After the first boss falls, pick a stone and watch it through the change. It stays right where it was as the amber leaves around it fade to slate blue. Moonlight slips through gaps in the canopy, laying pale silver bands across the forest floor. In the darker patches, yellow-green fireflies drift just above the leaves, each brightening and fading in its own time.
 
@@ -36,25 +36,25 @@ After the first boss falls, pick a stone and watch it through the change. It sta
 
 [观看昼夜交替实录 / Watch the day-to-night clip · 1080p MP4](docs/moonrise.mp4)
 
-夜色落定，骷髅法师开始从远处施法。撑过五波敌人，骷髅领主便会亲自上阵。它半血后的每一次跳斩都会重新瞄准你的位置，落地后还有一轮追着小队走的旋风斩。
+到了夜里，远处有骷髅法师放法术，身边还得防着近战骷髅。第五波过后是骷髅领主。打掉它半管血之后，它每次起跳都会重新瞄准你，几下跳斩落完，还会一路转着刀追上来。
 
 Once night settles, skeleton mages start casting from across the clearing. Survive five waves and the skeleton lord takes the field. At half health, he picks a fresh landing spot for each leap, then chases the party with his blade still spinning.
 
-### 三位英雄，共用一次闪避 / Three Heroes, One Dodge
+### 小队怎么打 / Three Heroes, One Dodge
 
-**洛恩**的剑适合在敌人贴身时横扫，**薇拉**的弩能先一步打到远处的目标，**伊芙**的火球则会让命中的敌人持续燃烧。往前多走两步，是给洛恩递上一个好目标，也可能是把身后的法师带进敌人的刀口。按下空格，三个人会沿你选的方向一起闪开。
+**洛恩**一剑能扫到身前好几个敌人，**薇拉**隔得远也能射中，**伊芙**的火球炸开后还会接着烧。三个人站得近，有时洛恩刚好够得到敌人，伊芙也快挨刀了。这时候往侧面闪一下，能把整队都带出去。
 
 **Lorne**, the warden, can catch several enemies within reach of his sword. **Vela**, the ranger, opens fire well before they reach him. **Eve**, the ember mage, leaves enemies burning even after her fireball bursts. A few steps forward can line up a beautiful swing for Lorne and put Eve within reach of an enemy blade. Hit Space and all three dodge in the direction you choose.
 
-### 林间祝福会改变你的走法 / Take a Blessing. Change Your Route.
+### 第一张祝福怎么选 / Take a Blessing. Change Your Route.
 
-第一次选祝福时，三张卡就是三种打法。选**旋风斩击**，可以领着洛恩擦过敌群边缘，让剑锋多转一圈；选**弹射箭矢**，两只靠在一起的敌人就成了薇拉的好目标；选**燎原火阵**，试着绕回刚走过的地方，让追兵在火里多待一会儿。
+第一次升级，三张卡各给一个人添一招。给洛恩选**旋风斩击**，就带他贴着怪群走，让它们多挨几下。薇拉的**弹射箭矢**适合打扎堆的敌人，一箭能在好几只怪之间弹。伊芙学了**燎原火阵**，火球落地会留下一圈火，绕个弯还能把追兵引回去再烧一次。
 
 The first three blessings give you a feel for how differently a run can play. With **Whirlwind**, skim the edge of a crowd to keep enemies within Lorne’s reach for one more turn of the blade. With **Ricochet**, a pair of enemies standing close together makes a fine target for Vela. Take **Blazing Circle** and it pays to double back, drawing pursuers through Eve’s fire a second time.
 
 ![三张林间祝福卡展示旋风斩击、燎原火阵和弹射箭矢 / The first three woodland blessings: Whirlwind, Blazing Circle, and Ricochet](docs/woodland-blessings.jpg)
 
-此后还会遇到穿透剑气、多重弩箭和连锁火焰。每项技能与祝福最高 12 级。两章都打完，通关用时会记入本机排行榜，最快的十次会显示在榜上。下次再进森林，你可以带着另一套搭配，试试能否比上次早一步走出来。
+后面还能学剑气、多重弩箭和连锁火焰，也可以接着升手里的技能，每项最高 12 级。两章全打完才算通关，排行榜记用时，显示当前浏览器里最快的十次成绩。
 
 Later choices include piercing blade waves, volleys of bolts, and flames that leap between enemies. Each skill and blessing can reach level 12. Finish both chapters to put a time on your local leaderboard. On the next run, try a different build and see how much sooner you can make it home.
 
@@ -92,7 +92,7 @@ On Windows, run `py -3 start.py`. On macOS, you can also double-click `启动游
 
 ### 作者与素材 / Credits and Licenses
 
-游戏设计与制作归 **DynamicWang** 署名，游戏代码以 MIT 许可证发布。介绍页使用作者提供的宣传头图、截图与实录。AWPlanet / DynamicWang 保留其中自制美术和品牌标志的权利。[代码许可证](LICENSE)
+**DynamicWang** 设计并制作了《荒野微光》。游戏代码采用 MIT 许可。头图、截图和录像由作者提供，其中的自制美术与品牌标志由 AWPlanet / DynamicWang 保留权利。[代码许可证](LICENSE)
 
 **DynamicWang** designed and produced Wilderlight. The game code is available under the [MIT License](LICENSE). The banner, screenshots and gameplay clip are supplied by the author. AWPlanet / DynamicWang reserve the rights to their original artwork and brand marks shown here.
 
