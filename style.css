@@ -1,0 +1,185 @@
+@font-face {
+  font-family: "WLXianglifang";
+  src: local("xianglifangheiti"), local("乡立方黑体");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+:root{color-scheme:dark;font-synthesis:none;--original-ui-font:"WLXianglifang","乡立方黑体",system-ui,"PingFang SC","Microsoft YaHei",sans-serif;font-family:var(--original-ui-font);color:#f4efd8;background:#101e1b}
+*{box-sizing:border-box}body{margin:0;display:grid;place-items:center;min-height:100vh;min-height:100dvh}button{font:inherit;font-weight:800;color:inherit;background:none;border:0;cursor:pointer;touch-action:manipulation}button:focus-visible{outline:3px solid #f9af4f}
+[hidden]{display:none!important}#game{width:min(100vw,59vh);width:min(100vw,59dvh);height:100vh;height:100dvh;position:relative;overflow:hidden;background:#294d40;isolation:isolate;container-type:inline-size;touch-action:none;user-select:none}#world,#menu,#battle,.sheet{position:absolute;inset:0;width:100%;height:100%}#world{display:block}
+#menu{text-align:center;background:linear-gradient(180deg,#15251f75,transparent 48%,#182b2455)}
+h1{position:absolute;top:10%;left:0;right:0;margin:0;font-size:20cqw;font-weight:1000;letter-spacing:-.09em;line-height:.98;text-shadow:0 2px 10px #19271f4d}h1 small{display:block;margin:0 auto .4em;font-size:5.5cqw;letter-spacing:.035em}
+nav{position:absolute;bottom:9%;width:100%;display:grid;justify-items:center;gap:1.2cqw}nav button{font-size:4.6cqw;padding:.3em .9em}.primary{border-radius:100px;background:#f2efd8;color:#31473c;padding:.55em 1.8em;font-weight:900;font-size:6cqw}footer{position:absolute;bottom:2.6%;width:100%;font-size:3cqw;font-weight:650}
+.sheet{display:flex;flex-direction:column;align-items:center;justify-content:center;background:#294e42;text-align:center;padding:5%;gap:2.2cqw}.sheet strong,.sheet h2{font-size:11cqw;line-height:1.03;margin:0 0 2cqw}.sheet p{line-height:1.65;margin:1cqw 0 2cqw}.sheet progress{accent-color:#df9c4e;width:56%}.sheet label{font-size:4cqw}
+#battle{pointer-events:none}#battle button,#pad{pointer-events:auto}#progress{position:absolute;top:max(3%,env(safe-area-inset-top));left:18%;width:64%;display:grid;grid-template-columns:1fr 4ch;align-items:center;gap:1.3cqw;font-size:3.6cqw;text-shadow:0 1px 2px #413b2b}#waves{grid-column:span 2;display:flex;align-items:center;justify-content:space-between;position:relative;height:6cqw;margin-bottom:1cqw}#waves:before{content:'';position:absolute;inset:44% 0 auto;background:#f1eed3;height:13%}#waves i{display:block;position:relative;background:#f1eed3;width:4cqw;height:4cqw;border-radius:100%}#waves i:last-child{width:6cqw;height:6cqw}#waves i.current:after{content:'';position:absolute;inset:18%;border:2px solid #315a46;border-radius:50%}#meter{display:block;height:3.4cqw;background:#f1eed3;border-radius:18px;overflow:hidden}#meter i{display:block;height:100%;background:#dc9138;transform-origin:left}#sound{position:absolute;right:3%;top:3%;border-radius:50%;background:#1c3e31bd;width:9cqw;height:9cqw;font-size:6cqw}
+#banner{position:absolute;inset:34% 2% auto;text-align:center;font-size:13cqw;line-height:1.15;font-weight:950;text-shadow:0 2px 6px #273a31aa}#banner small{display:block;font-size:4.2cqw;letter-spacing:.15em;margin-bottom:.4em}
+#pad,#dash{position:absolute;bottom:18%;width:29cqw;aspect-ratio:1;left:18%;transform:translate(-50%,50%);border-radius:100%;background:#f7efd752;touch-action:none}#pad i{position:absolute;left:50%;top:50%;width:34%;height:34%;border-radius:50%;background:#f3efd7;transform:translate(-50%,-50%)}#dash{left:82%;width:17cqw;background:#193a2dd9;display:grid;place-items:center;padding:0}#skills{position:absolute;bottom:max(3%,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);display:flex;gap:1cqw}.stack{display:flex;flex-direction:column-reverse;gap:1cqw}.skill{padding:0;position:relative;background:#193a2dd9;border-radius:100%;width:10.6cqw;aspect-ratio:1}.skill,.skill canvas,#dash canvas{display:block}.skill canvas,#dash canvas{width:100%;height:100%}.cool{position:absolute;inset:0;border-radius:100%;background:conic-gradient(#092021c9 var(--cd,0turn),transparent 0);pointer-events:none}#detail{position:absolute;bottom:31%;left:12%;right:12%;background:#1e382eef;border-radius:12px;padding:12px;text-align:center;font-size:3.5cqw}
+#overlay.choice,#overlay.pause{background:#162a22a1}.choice button{position:relative;text-align:left;color:#344538;background:#eeeed8;width:87%;min-height:15%;border-radius:4cqw;overflow:hidden;padding:3cqw 4cqw 3cqw 28%;display:flex;flex-direction:column;justify-content:center;gap:.6cqw}.choice canvas{position:absolute;left:-4%;bottom:-12%;width:33%;aspect-ratio:1}.choice .owner{position:absolute;left:4%;top:8%;display:flex}.owner img{width:7cqw;border-radius:50%}.owner img+img{margin-left:-2cqw}.choice b{font-size:6.5cqw}.choice small{color:#537458}.choice span{font-size:3.25cqw}.party{display:flex;gap:3cqw}.party img{width:13cqw;border-radius:100%}.result h2,.pause h2{font-size:22cqw}.stats{display:flex;gap:6cqw;margin:2cqw 0 4cqw}.stats b,.stats small{display:block}.scores ol{margin:0;padding:0;list-style:none;width:85%;overflow:auto;max-height:55%}.scores li{display:flex;justify-content:space-between;border-bottom:1px solid #628575;padding:.4em}.sheet button{min-height:40px}.pause{cursor:pointer}
+
+/* Wide windows use the original horizontal camera; keep type and HUD tied to height. */
+#keyboard-hint, #dash kbd, #pause-game { display: none }
+#battle[inert] #banner { visibility: hidden }
+.sheet.pause button {
+  display:grid; place-items:center; width:min(76%, 12em); min-height:44px;
+  padding:.48em 1em; border:1px solid #f2efd8; border-radius:.35em;
+  font-size:clamp(18px, 3.2vh, 28px); line-height:1.2;
+}
+.pause button[data-do="camp"] {background:#294d40; color:#f2efd8}
+.pause button:hover {filter:brightness(1.1)}
+@media (orientation: landscape) {
+  #game {
+    width: 100vw;
+    --paper: #f2efd8;
+    --ink: #294b3e;
+    --edge: clamp(14px, 3vmin, 36px);
+    --control: clamp(40px, 6.4vmin, 60px);
+  }
+  #menu {background: linear-gradient(180deg,#101f20a6 0%,#19291b1c 38%,transparent 58%,#15271ec2 100%)}
+  #menu h1 {
+    top: 5.5%; left: 50%; right: auto; transform: translateX(-50%);
+    width: min(49vw,44vh); aspect-ratio: 902/532; overflow: hidden;
+  }
+  /* The transparent title artwork occupies (80,238)–(982,770) in its 1060px square. */
+  #menu .brand {position: absolute; width:117.52%; max-width:none; left:-8.87%; top:-44.73%}
+  #menu nav {
+    bottom: 4.8%; display:grid; grid-template-columns:auto auto; justify-content:center;
+    column-gap: 1.8em; row-gap: .35em; font-size:clamp(14px,2.4vh,22px)
+  }
+  #menu nav button {font-size:inherit; padding:.25em .6em}
+  #menu nav .primary {grid-column:span 2; font-size:clamp(18px,3.4vh,30px); padding:.24em 2.3em; border-radius:.26em}
+  #menu footer {left:var(--edge); bottom:var(--edge); width:auto; font-size:clamp(11px,1.7vh,16px)}
+  #progress {top:var(--edge); left:50%; transform:translateX(-50%); width:clamp(175px,24vw,340px); gap:4px 8px; font-size:clamp(13px,2vh,19px)}
+  #waves {height:clamp(16px,2.9vh,27px); margin:0}
+  #waves i {width:clamp(9px,1.6vh,15px); height:auto; aspect-ratio:1}
+  #waves i:last-child {width:clamp(14px,2.5vh,23px); height:auto}
+  #meter {height:clamp(5px,1vh,9px)}
+  #sound {top:var(--edge); right:max(var(--edge),env(safe-area-inset-right)); width:var(--control); height:var(--control); font-size:calc(var(--control)*.58)}
+  #banner {top:46%; transform:translateY(-50%); font-size:clamp(36px,12vh,108px)}
+  #banner small {font-size:clamp(14px,3vh,27px); margin-bottom:.25em}
+  #skills {bottom:var(--edge); gap:8px}
+  .stack {gap:6px}
+  .skill {width:var(--control)}
+  #detail {bottom:calc(var(--edge) + var(--control)*3 + 20px); left:50%; right:auto; transform:translateX(-50%); width:max-content; max-width:65%; font-size:clamp(13px,2.1vh,18px)}
+  #pad,#dash {--inset:max(10vw,70px); bottom:max(17vh,66px)}
+  #pad {left:max(var(--inset),env(safe-area-inset-left)); width:clamp(85px,24vh,146px)}
+  #dash {left:auto; right:max(var(--inset),env(safe-area-inset-right)); transform:translate(50%,50%); width:clamp(52px,13vh,88px)}
+  .sheet {padding:var(--edge); gap:clamp(5px,1.5vh,16px); font-size:clamp(15px,2.5vh,22px)}
+  .sheet strong,.sheet h2 {font-size:clamp(32px,8vh,76px); margin:0 0 .15em}
+  .sheet p {max-width:42em; margin:0; line-height:1.5; text-wrap:balance}
+  .sheet button {min-height:32px; font-size:inherit}
+  .sheet progress {width:min(32vw,360px)}
+  .sheet label {font-size:inherit}
+  .party {gap:12px}
+  .party img {width:clamp(32px,9vh,80px)}
+  .sheet.guide button,.sheet.scores button,.result button {color:var(--paper); text-decoration:underline; text-underline-offset:.18em}
+  .scores ol {max-width:540px; max-height:54vh}
+  .sheet.choice {flex-direction:row; gap:clamp(10px,1.6vw,28px)}
+  .choice button {
+    display:grid; align-content:start; grid-template-rows:minmax(0,1fr) auto auto auto auto;
+    width:min(26vw,285px); height:clamp(210px,54vh,386px); min-height:0;
+    padding:clamp(12px,2.5vh,25px); gap:0; border-radius:clamp(12px,2vh,20px);
+    background:linear-gradient(155deg,#fffbe5,#e5e8ce);
+    box-shadow:0 6px 24px #10241f44;
+  }
+  .choice button:hover,.choice button:focus-visible {background:#fffbe9; outline:3px solid #c69649; outline-offset:3px}
+  .choice canvas {position:static; height:100%; max-height:100%; width:auto; max-width:80%; object-fit:contain; justify-self:center; min-height:0}
+  .choice .owner {left:8%; top:6%}
+  .owner img {width:clamp(20px,4.5vh,40px)}
+  .owner img+img {margin-left:-8px}
+  .choice b {font-size:clamp(19px,4.7vh,42px); line-height:1.15}
+  .choice small {font-size:clamp(12px,2vh,18px); margin:.25em 0 .55em}
+  .choice span {font-size:clamp(12px,2.35vh,20px); line-height:1.4}
+  .pause h2 {font-size:clamp(56px,16vh,160px)}
+  .sheet.result {
+    --stat-column: clamp(66px, 12vh, 108px);
+    gap: clamp(4px, 1.5vh, 14px);
+    justify-content: safe center;
+    overflow-y: auto;
+    touch-action: pan-y;
+  }
+  .result > * {flex: none}
+  .result h2 {font-size: clamp(46px, 14vh, 133px); margin: 0}
+  .result .party,.result .stats {
+    display: grid;
+    grid-template-columns: repeat(3, var(--stat-column));
+    column-gap: clamp(6px, 1.6vh, 16px);
+    justify-items: center;
+  }
+  .result .party {margin-top: .25em}
+  .result .stats {margin: 0 0 .25em}
+  .result .stats b {font-size: 1.35em; white-space: nowrap}
+  .result button.primary {width: calc(3 * var(--stat-column)); color: var(--ink); font-size: 1.15em; text-decoration: none; border-radius: .3em; padding: .35em 1em}
+}
+@media (orientation:landscape) and (hover:hover) and (pointer:fine) {
+  #pause-game {
+    position:absolute; top:var(--edge); left:max(var(--edge),env(safe-area-inset-left));
+    width:max(44px,var(--control)); height:max(44px,var(--control)); padding:0;
+    display:flex; align-items:center; justify-content:center; gap:4px;
+    border-radius:50%; color:var(--paper); background:#1c3e31cf;
+  }
+  #pause-game::before,#pause-game::after {
+    content:""; width:4px; height:15px; border-radius:1px; background:currentColor;
+  }
+  #pause-game:hover {background:#173b30}
+  #pad {display:none}
+  #keyboard-hint {display:flex; align-items:center; gap:.4em; position:absolute; left:var(--edge); bottom:var(--edge); font-size:clamp(13px,2vh,18px); text-shadow:0 1px 3px #122a1f}
+  #keyboard-hint kbd,#dash kbd {font:inherit; letter-spacing:.03em; color:#f2efd8; background:#203d32e8; border:1px solid #e3dfbb80; border-radius:4px; padding:.05em .45em}
+  #dash {width:var(--control); right:var(--edge); bottom:var(--edge); transform:none}
+  #dash kbd {display:block; position:absolute; right:calc(100% + 8px); font-size:clamp(12px,1.8vh,17px); white-space:nowrap}
+}
+
+@media (orientation: landscape) {
+  #menu h1 {width:90%; aspect-ratio:auto; font-size:clamp(42px,14vh,128px); line-height:1.12; letter-spacing:-.035em}
+  #menu h1 small {font-size:clamp(13px,2.7vh,24px); letter-spacing:.14em}
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("./assets/fonts/barlow-condensed-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+#language {
+  position:absolute; z-index:1;
+  top:max(14px,3vmin,env(safe-area-inset-top)); right:max(14px,3vmin,env(safe-area-inset-right));
+  min-height:44px; padding:0 1em; border-radius:2em;
+  background:#203e33e8; border:1px solid #f2efd86b;
+  font:700 18px/1 "Barlow Condensed",system-ui,sans-serif;
+}
+#language:lang(zh-CN) {font-family:"WLXianglifang","乡立方黑体",sans-serif; font-weight:400}
+#language:hover {background:#294d40}
+html:lang(en) {font-family:"Barlow Condensed",system-ui,sans-serif; font-weight:700}
+html:lang(en) button {font-weight:700}
+html:lang(en) :is(.sheet h2,.choice b,.sheet .primary,.sheet > strong), html:lang(en) #banner {
+  font-family:"Barlow Condensed",system-ui,sans-serif; font-weight:700;
+}
+html:lang(en) :is(.sheet h2,.choice b,#banner) {line-height:1.06}
+@media (orientation:landscape) {
+  html:lang(en) .choice b {font-size:clamp(18px,4.3vh,38px)}
+  html:lang(en) .choice span {font-size:clamp(13px,2.4vh,20px);line-height:1.18}
+}
+
+#menu .local-brand {font-family:"WLXianglifang","PingFang SC",system-ui,sans-serif; font-weight:900}
+
+/* The Chinese menu sets the button geometry in both languages. */
+#menu nav button {
+  position:relative;
+  font-family:var(--original-ui-font);
+  font-weight:800;
+}
+#menu nav button.primary {font-weight:900}
+.menu-measure {visibility:hidden; white-space:nowrap}
+.menu-label {
+  position:absolute; inset:0; display:grid; place-items:center;
+  white-space:nowrap; pointer-events:none;
+}
+html:lang(en) #menu .menu-label {font:700 1em/1.1 "Barlow Condensed",system-ui,sans-serif}
+/* Offset the visible glyphs within the centered line box of each face. */
+#menu .primary .menu-label {transform:translateY(-.135em)}
+html:lang(en) #menu .primary .menu-label {transform:translateY(-.05em)}
+#menu footer {font-family:"Barlow Condensed",system-ui,sans-serif; font-weight:700}
+#sound {font-family:var(--original-ui-font); font-weight:800}
+
+#loading .loading-local-brand {font:900 clamp(36px,8vmin,80px)/1.1 var(--original-ui-font)}
+.loading-local-brand small {display:block; font-size:.28em; letter-spacing:.14em}
