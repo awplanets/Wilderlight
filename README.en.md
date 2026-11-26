@@ -2,6 +2,8 @@
 
 # Wilderlight · 荒野微光
 
+**[Play in your browser](https://awplanets.github.io/Wilderlight/)**
+
 **Game design and production by DynamicWang**　｜　[简体中文](README.md)
 
 ## About This Game
