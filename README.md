@@ -6,7 +6,7 @@
 
 ## 关于这款游戏
 
-《荒野微光》是一款单人动作肉鸽。洛恩提剑，薇拉端弩，伊芙举起法杖。三个伙伴各自出招，你带着他们一起走。按下空格，整支小队会朝同一个方向闪开。
+《荒野微光》是一款单人动作肉鸽。洛恩提剑，薇拉端弩，伊芙举起法杖。
 
 ![三人小队在逐日之森的落叶间并肩作战](docs/forest-battle.jpg)
 
@@ -32,7 +32,7 @@
 
 ## About This Game
 
-Wilderlight is a single-player action roguelite. Lorne carries a sword, Vela a crossbow, and Eve a staff. Each fights on their own while you steer all three. Press Space and the whole party dodges together.
+Wilderlight is a single-player action roguelite. Lorne carries a sword, Vela a crossbow, and Eve a staff. 
 
 ![The three adventurers fighting side by side in the Sunward Woods](docs/forest-battle.jpg)
 
