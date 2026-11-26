@@ -2,7 +2,7 @@
 
 # 荒野微光 · Wilderlight
 
-**[在线试玩 · Play in your browser](https://awplanets.github.io/Wilderlight/)**
+**[在线试玩 · Play in your browser](https://awplanets.github.io/Wilderlight/play/1f63bea/)**
 
 **DynamicWang** · [中文介绍](#关于这款游戏) · [English](#about-this-game)
 
